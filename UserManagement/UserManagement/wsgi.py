@@ -1,5 +1,5 @@
 """
-WSGI config for calculatorApp project.
+WSGI config for UserManagement project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "calculatorApp.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "UserManagement.settings")
 
 application = get_wsgi_application()
